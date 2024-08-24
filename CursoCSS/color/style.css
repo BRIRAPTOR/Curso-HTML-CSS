@@ -1,0 +1,22 @@
+*{
+font-family: ‘Sen’, sans-serif;
+font-weight: 100;
+}
+.nav__responsive_ul{
+display: none;
+}
+nav{
+    background-color: slateblue;
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: #fff;
+}
+.nav__li a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav__li i{
+width: 30px;
+}

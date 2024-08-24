@@ -1,0 +1,21 @@
+*{
+    color: red;
+}
+h1{
+    color: blue;
+}
+.h2{
+    color: green;
+}
+#par{
+    color: burlywood;
+}
+[rencio="sii"]{
+    color: chocolate;
+}
+h2 p {
+    color: rgb(29, 77, 119);
+}
+p:hover{
+    color: rgb(6, 184, 29);
+}

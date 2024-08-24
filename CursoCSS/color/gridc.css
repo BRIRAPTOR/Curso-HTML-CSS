@@ -1,0 +1,28 @@
+.grid__item{
+    border:2px solid #000 ;
+    background-color: blue;
+    padding: 100px;
+    font-size: 20px;
+    
+   
+    
+}
+.grid__container{
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+    grid-auto-rows: 1fr;
+    grid-auto-columns: ifr;
+    border: 3px solid #000;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+   margin: 300px;
+   height: 900px;
+   width: 900px;
+    background-color: aqua;
+    grid-auto-flow: dense;
+    align-items: center;
+    justify-items: center;
+}
+
+
