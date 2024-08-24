@@ -1,0 +1,18 @@
+.box {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 128, 85));
+
+}
+body {
+    background-color: rgb(113, 202, 29);
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-family: monospace;
+    font-size: 40px;
+}

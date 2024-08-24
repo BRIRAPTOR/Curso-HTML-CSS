@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    --bg-color: #ffb18c;
+    --text-color: #333;
+    --dark-color: rgb(255, 130, 77);
+    --faq-color: #fff;
+    background: var(--bg-color);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.faq {
+    max-width: clamp(300px, 100%, 700px);
+    margin: auto;
+}
+
+.faq_option {
+    background: var(--faq-color);
+    margin: 20px;
+    padding: 7px;
+    display: block;
+    max-height: 34px;
+    overflow: hidden;
+    transition: max-height 1.5s;
+}
+
+.content {
+    padding: 5px 10px;
+    margin: 10px 10px 0 10px;
+    font-size: .8rem;
+    color: var(--text-color);
+    border-top: 1px solid var(--bg-color);
+}
+
+.faq_option b {
+    background: var(--dark-color);
+    padding: 2px 4px;
+    color: #fff;
+    margin-right: 4px;
+}
+
+.faq_ask::marker {
+    content: "";
+}
+
+.faq_ask::before {
+    content: " + ";
+    color: #ffb18c;
+    position: absolute;
+    right: 0;
+    font-weight: 900;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.faq_option:has(input[type="checkbox"]:checked) {
+    max-height: 150px;
+}
+
+.faq_option:has(input[type="checkbox"]:checked) .content {
+    animation: aparecer 1s both;
+}
+
+.faq_option:has(input[type="checkbox"]) .faq_ask::before {
+    content: " - ";
+}
+
+.faq_ask {
+    user-select: none;
+    position: relative;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+        translate: 0 -20px;
+    }
+    to {
+        opacity: 1;
+        translate: 0 0;
+    }
+}

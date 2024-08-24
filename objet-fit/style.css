@@ -1,0 +1,8 @@
+
+img {
+    border: 1px solid #030303;
+    height: 800px;
+    width: 1000px;
+    object-fit: cover; /*contain entre por lo menos una ves en el contenedor o el eje x o el y y el cover se adapta  sin distorcionar y el fill si lo distorciona*/
+    object-position: top;
+}

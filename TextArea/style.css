@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    
+}
+form {
+background-color: #ededed;
+margin: auto;
+max-width: 600px;
+}
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 6px 8px;
+    border: none;
+    border-left: 2px solid #666;
+    border-radius: 4px;
+    color: rgb(46, 46, 46);
+    resize: vertical;
+
+}
+
+.form_input {
+    padding: 6px 20px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    font-size: 0.9em;
+    line-height: 2;
+}

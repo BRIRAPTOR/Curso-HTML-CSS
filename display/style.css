@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav {
+    background: #48e;
+}
+
+.nav__ul {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 10px;
+    background: #48e;
+}
+
+.nav__item:hover {
+    background: #59e;
+}
+
+.nav__link {
+    color: #fff;
+    text-decoration: none;
+}

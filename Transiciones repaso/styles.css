@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: #ccc;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 4px;
+    border: 3px solid #48e;
+    border-radius: 39px;
+}
+
+.barra {
+    padding: 40px;
+    background-color: #48e;
+    border-radius: 30px;
+    width: 10%;
+    transition: width 2s steps(10);
+}
+
+.barra:active {
+    width: 100%;
+    transition-duration: 1s;
+}

@@ -1,0 +1,33 @@
+form {
+    background-color: #0da5bb;
+    margin: auto;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 5px;
+}
+body {
+    background: #4788ef;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: none;
+    border-left: 2px solid #4298c7;
+    border-radius: 4px;
+    color: rgb(46, 46, 46);
+    margin: 6px;
+}
+
+.form_input {
+    padding: 6px 20px;
+
+}
+fieldset {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+legend {
+    color: blue;
+}

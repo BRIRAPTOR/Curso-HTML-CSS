@@ -1,0 +1,15 @@
+.box {
+    height: 100px;
+    width: 100px;
+    background: #4488ee;
+    position: fixed; /*es como el absolute pero siempre se posiciona con respecto a la etiqueta raiz(html) ideal para un nav*/
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background: #0fa859;
+    position: sticky; /*es como el parecido al fixed cuando se cumple que llegue a algún lugar de la pantalla*/
+    top: 60px; /*esta ea la condición*/
+    left: 150px;
+}

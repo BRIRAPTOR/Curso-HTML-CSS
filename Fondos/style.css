@@ -1,0 +1,81 @@
+.box {
+    width: 400px;
+    height: 800px;
+    background-color: azure;
+    background-image: url(https://wallpapercave.com/wp/wp7183660.jpg);
+    background-size: contain;
+    background-position: right;
+    margin-top: 20vh;
+    margin-left: 40vw;
+    background-repeat: repeat;
+}
+
+body {
+    background-color: aqua;
+}
+
+.box2 {
+    width: 800px;
+    height: 800px;
+    background-color: azure;
+    background-image: url(https://wallpapercave.com/wp/wp7183660.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*
+contain fuerza al navegador a que entre por lo menos 1 vez
+background-size: 100%; se ajusta con respecto al width
+cover se adapta no importa la dimencion que se ajustae a la dimencion que tiene que tener
+que entre completa en la pantalla 
+    */
+    margin-top: 20vh;
+    margin-left: 40vw;
+}
+
+.box3 {
+    width: 1600px;
+    height: 800px;
+    background-color: azure;
+    background-image: url(https://wallpapercave.com/wp/wp7183660.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 20vh;
+    
+}
+
+.box4 {
+    width: 1600px;
+    height: 800px;
+    margin-top: 20vh;
+    background: url(https://wallpapercave.com/wp/wp7183660.jpg) bottom / contain fixed #6fa;
+    
+}
+
+/* Usando <background-color>
+background: green;
+
+ Usando <bg-image> y <repeat-style>
+background: url("test.jpg") repeat-y;
+
+Usando <box> and <background-color>
+background: border-box red;
+
+ Una sola imagen, centrada y escalada
+ Valores
+background-color
+ver color.
+
+background-image
+ver image.
+
+background-repeat
+ver repeat.
+
+background-attachment
+ver background-attachment.
+
+background-position
+ver position.
+ */

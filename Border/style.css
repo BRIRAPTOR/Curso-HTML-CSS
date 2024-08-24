@@ -1,0 +1,35 @@
+body {
+    font-family: Times, serif;
+    font-size: large;
+    font-weight: 600;
+    background-color: rgba(3, 17, 9, 0.829);
+}
+
+.hi {
+    background-color: red;
+    width: 150px;
+    height: 20px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    
+
+    /* border-width: 5px;
+    border-color: rgb(41, 89, 223);
+    border-style: solid;*/
+    border: 5px solid rgb(220, 200, 20);
+    border-radius: 50px 20px 5px 10px;
+    
+}
+
+input {
+    background-color: whitesmoke;
+    border: none;
+    border-bottom: 2px solid rgb(243, 208, 92);
+    border-left: 2px solid rgb(243, 208, 92);
+    color: rgb(2, 79, 167);
+    border-radius: 5px;
+    padding: 6px 9px;
+    margin: 5px;
+    width: 50%;
+}

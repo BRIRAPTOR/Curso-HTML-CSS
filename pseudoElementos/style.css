@@ -1,0 +1,46 @@
+h1::first-letter {
+    color: red;
+    font-size: 3em;
+    letter-spacing: -8px;
+}
+
+div::first-line {
+    color: red;
+    font-weight: bold;
+}
+
+div::selection {
+    background: #a6d9b2;
+    color: #fff;
+}
+
+#mail1::placeholder {
+    background: #e0901c;
+}
+
+li::marker {
+    color: red;
+}
+
+li::before {
+    content: "Texto antes ";
+}
+
+li::after {
+    content: " texto despues";
+}
+
+/*
+Sintaxis
+selector::pseudo-elemento { propiedad: valor; }
+Lista de pseudoelementos
+::after
+::before
+::first-letter
+::first-line
+::selection
+::backdrop
+::placeholder Experimental
+::marker Experimental
+::spelling-error Experimental
+::grammar-error (en-US) Experimental*/

@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.modal {
+    position: absolute;
+    background: rgba(32, 56, 45, 0.62);
+    height: 100vh;
+    width: 100vw;
+}
+
+.modal__content {
+    background: #F7F9FA;
+    padding: 10px 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.modal__title {
+    margin-top: 10px;
+}

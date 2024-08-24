@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    
+    background-color: #0da5bb;
+    display: grid;
+    place-content: center;
+    color: white;
+    width: clamp(900px, 100%, 1400px);
+    margin: 120px auto;
+    font-size: 30px;
+    padding: 0 40px;
+}
+
+h1 {
+    font-size: 2.2em;
+    margin-bottom: 0;
+}

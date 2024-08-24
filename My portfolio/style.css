@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    background: #4488ee;
+    margin: 0;
+    height: 80px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 20px;
+}
+
+.nav__ul {
+    padding: 20px;
+}
+
+.list__item {
+    display: inline;
+    margin: 30px;
+}
+
+.container__brian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #91e713;
+    height: 60vh;
+    overflow: hidden;
+
+}
+
+
+h1 {
+    position: absolute;
+    top: 200px;
+}
+
+.img_brian {
+    width: max-content;
+    height: auto;
+}
+
+.h2_project {
+    text-align: center;
+}
+
+.h3_proyecto {
+    text-align: center;
+}
+
+.container__proyectos {
+    margin: 20px;
+    text-align: center;
+}
+
+.img_project {
+    max-width: 600px;
+    height: auto;
+    margin: auto;
+}
+
+.main {
+    background: #289f9b;
+    margin: 0;
+}
+
+.main__section {
+    height: 100vh;
+    background: #a1d0e5;
+}
+
+.my__abilities {
+    height: 100vh;
+    background: #d0c491;
+}
+
+.container__abilities {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 20px;
+    align-items: center;
+    height: 100vh;
+}
+
+.img_abilities {
+    max-width: 100%;
+    height: auto;
+}
+
+.section__proyectos {
+    height: 100vh;
+    background: #ef4766;
+    padding: 50px;
+    margin: 0;
+}
+
+.reviews {
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.container__review {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.review-client {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.client-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.client-info img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.review {
+    font-style: italic;
+    color: #444;
+}
+
+.form_input {
+    background: #ab1212;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input_name {
+    width: 80%;
+}
+
+.input_email {
+    width: 80%;
+}
+
+.footer {
+    background: #333;
+    margin: 0;
+}
+
+.footer_nav__ul {
+    margin: 0;
+}

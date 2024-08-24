@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template: repeat(3, 200px)/ repeat(3, 200px);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+/*con justify-items: mueves los items adentro de la celda
+y con justify-content: center mueve las celdas adentro
+ del contenedor en eje x y align en el y*/
+.grid-item {
+    background-color: #48e;
+    font-size: 30px;
+    max-width: 100%;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F7F9FA;
+
+}
+
+.grid-item:hover {
+    opacity: 0.74;
+}

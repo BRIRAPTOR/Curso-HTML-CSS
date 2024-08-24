@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    background: #289ddc;
+}
+
+.box {
+    font-size: 30px;
+    padding: 0 40px;
+}
+
+p::first-letter {
+    initial-letter: 3 3;
+    color: red;
+}
+
+.box2 {
+    height: 400px;
+    width: 500px;
+    background: color-mix(in srgb, #91e713 40%, #0da5bb 50%);
+    margin: auto;
+    clip-path: circle(100% at 10px 10px);
+    background: url("https://i.pinimg.com/736x/33/3d/5f/333d5f2a28905885c7397c65094bac78.jpg");
+}

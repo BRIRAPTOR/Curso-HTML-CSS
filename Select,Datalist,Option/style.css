@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+background: linear-gradient(to bottom,#333, #000);
+    height: 100vh;
+}
+form {
+    background-color: #111;
+    margin: 0 auto 40px auto;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 55px #fff2;
+}
+
+input, textarea{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    padding: 6px 8px;
+    border: none;
+    border-left: 2px solid #9b9b9b;
+    border-radius: 4px;
+    color: rgb(208, 208, 208);
+    resize: vertical;
+    background: #131313;
+
+}
+
+.form_input {
+    padding: 6px 20px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 200px;
+    max-height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+label {
+    font-size: 0.9em;
+    line-height: 2;
+}
+.términos {
+    font-size: 20px;
+    padding-bottom: 10px;
+
+}
+
+.checkbox {
+    width: 50px;
+height: 15px;
+    padding: 5px;
+}
+fieldset {
+    margin: 20px;
+    padding: 10px;
+}
+select {
+    background: #131313;
+    color: rgb(208, 208, 208);;
+}
+
+a {
+   color: #69f;
+    text-decoration: none;
+}

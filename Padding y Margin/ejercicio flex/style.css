@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    
+    height: 1000px;
+    flex-wrap: wrap;
+    background-color: chartreuse;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+.item {
+    width: 20%;
+    height: 20%;
+    background-color: rgb(43, 43, 163);
+    border: solid 2px;
+    
+}
+

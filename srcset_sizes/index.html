@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<!-- Usando la etiqueta picture -->
+<picture>
+    <source media="(max-width: 500px)" srcset="images.jpg">
+    <source media="(max-width: 900px)" srcset="EDOMEX_NEVADO-DE-TOLUCA_960x651.jpg">
+    <img src="Mexico-City-GI-1064279806.jpg" alt="imagen">
+</picture>
+
+<!-- Usando la etiqueta img con srcset y sizes -->
+<img src="Mexico-City-GI-1064279806.jpg" alt="imagen"
+     srcset="images.jpg 500w, EDOMEX_NEVADO-DE-TOLUCA_960x651.jpg 900w, Mexico-City-GI-1064279806.jpg 1900w"
+     sizes="(max-width: 500px) 500px,
+            (max-width: 900px) 900px,
+            1900px">
+
+
+</body>
+</html>

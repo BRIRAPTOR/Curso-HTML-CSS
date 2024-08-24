@@ -1,0 +1,52 @@
+
+/* Selector de ID */
+#example {
+    font-weight: bold;
+    color: red;/*actua el rojo*/
+    font-size: 40px;
+    font-family: Calibri;
+}
+/* Selector universal */
+* {
+    font-family: Arial, sans-serif;
+}
+
+/* Selector de tipo */
+h1 {
+    color: blue !important;
+}
+
+/* Selector de pseudo-elemento */
+h1::before {
+    content: "Antes: ";
+}
+
+/* Selector de clase */
+.example {
+    font-size: 20px;
+    color: yellow;
+
+}
+
+/* Selector de atributo */
+input[type="radio"] {
+    margin: 10px;
+}
+
+/* Pseudo-clase */
+h1:hover {
+    color: #0fa859;
+}
+
+
+
+
+/* Combinador */
+h1 + p {
+    color: green;
+}
+
+/* Pseudo-clase de negación */
+:not(p) {
+    text-decoration: underline;
+}

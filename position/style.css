@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+/*cuando posicionamos una caja adquiere 4 propiedades top, rigth bottom left y zindex  */
+.box {
+    background: yellow;
+    position: relative; /*ocupa el espacio en el dom se reserva el lugar pero se puede mover esta relativamente ahí*/
+    height: 100px;
+    width: 100px;
+}
+
+.box--blue {
+    background: blue;
+    top: 20px;
+    left: 30px;
+    color: #F7F9FA;
+
+}
+
+.box--red {
+    background: red;
+}
+
+.container {
+    border: 2px solid #444444;
+    margin: 40px 40px;
+    width: 80vw;
+    position: relative; /*se toma como punto de referencia para la caja de adentro con position absolute*/
+}
+
+.box1 {
+    position: static;
+    height: 100px;
+    width: 100px;
+    background: #a6d9b2;
+}
+
+.box--red1 {
+    position: absolute;
+    background: red;
+    top: 30px;
+    left: 50px;
+    z-index: 10;
+}
+
+.box--blue1 {
+    background: blue;
+    position: static;
+}

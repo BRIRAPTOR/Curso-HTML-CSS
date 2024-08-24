@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: "Lucida Sans", sans-serif;
+    background-color: #222;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+.crecedor {
+    height: 100vh;
+}
+
+.box {
+    background-color: #48e;
+    view-timeline: --cajita block;
+    animation: llenar-barra linear;
+    animation-timeline: --cajita;
+    /* animation-timeline: view();*/
+    height: 30px;
+    animation-range-start: cover 20%;
+    animation-range-end: cover 80%;
+    /*también esta contain que tiene que estar completamente adentro para empezar*/
+}
+
+@keyframes llenar-barra {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+
+}

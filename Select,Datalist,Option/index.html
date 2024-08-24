@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <h2>Formulario de contacto</h2>
+    <fieldset>
+        <legend>Información básica</legend>
+        <div class="form_input">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" placeholder="Brian Hazel">
+        </div>
+        <div class="form_input">
+            <label for="mail">Email</label>
+            <input type="email" id="mail" placeholder="ejemplo@gmail.com">
+            <label for="asunto">Asunto</label>
+            <input type="text" id="asunto" placeholder="El asunto de tu mensaje">
+        </div>
+    </fieldset>
+
+    <div class="form_input">
+        <label>Tipo de usuario</label>
+        <label for="user"></label>
+        <select name="type-of user" id="user">
+            <option value="user1">Seguidor</option>
+            <option value="user2">Empresa</option>
+            <option value="user3">Otros</option>
+        </select>
+    </div>
+    <!--Datalist y option-->
+    <div class="form_input">
+        <label>Referente</label>
+        <label>
+            <input list="referente">
+        </label>
+        <datalist id="referente">
+            <option value="user1">Soy Dalto</option>
+            <option value="user2">Una Empresa</option>
+            <option value="user3">Un amigo</option>
+        </datalist>
+    </div>
+
+
+    <div class="form_input">
+        <label for="msg">Mensaje</label>
+        <textarea name="txt_area" id="msg" placeholder="Deja tu mensaje..."></textarea>
+    </div>
+    <div class="form_input términos">
+        <label for="ter_con">Acepto los <a href="terms.html" target="_blank">términos y condiciones</a>
+            <input class="checkbox" type="checkbox" id="ter_con">
+        </label>
+    </div>
+    <div class="form_input">
+        <input type="submit" value="Enviar">
+    </div>
+
+</form>
+</body>
+</html>

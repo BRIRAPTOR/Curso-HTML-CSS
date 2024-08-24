@@ -1,0 +1,35 @@
+body {
+background-color: black;
+font-family: sans-serif;
+color: white;
+margin: 0px;
+padding: 0;
+height: 100vh;
+
+}
+.card {
+    background-color: rgb(15, 206, 212);
+    text-align: center;
+    margin: 50px;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.brian{
+    margin: 0;
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 9px;
+    padding: 20px;
+    background-color: rgb(104, 171, 230);
+    text-align: justify;
+}

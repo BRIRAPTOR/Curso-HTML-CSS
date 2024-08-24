@@ -1,0 +1,18 @@
+.box {
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    overflow: auto;
+}
+
+.box2 {
+    margin: 30px auto;
+    border: 1px solid blue;
+    height: 200px;
+    width: 200px;
+    white-space: normal;
+    overflow-wrap: normal;
+    /*overflow: hidden; pone los 3 puntos ...*/
+
+
+}

@@ -1,0 +1,130 @@
+body {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: #cccccc;
+    margin: 0;
+    color: #fff;
+}
+
+/*--HEADER SECTION--*/
+.header {
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url("https://www.mercedes-benz.com.mx/content/mexico/es/passengercars/technology/design-and-concept-cars/_jcr_content/root/responsivegrid/media_gallery_1752051421/media_gallery_item/image.component.damq1.3339873305307.jpg");
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    display: flex;
+    font-size: 1.5em;
+}
+
+.header__overlay {
+    height: 100vh;
+    width: 100%;
+    background: #0006;
+    position: absolute;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.6rem;
+
+}
+
+.header__item-container {
+    position: relative;
+    z-index: 19;
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+    font-size: .5em;
+}
+
+.header-img {
+    min-width: 250px;
+    max-width: 40%;
+    border-radius: 50px;
+    border: 6px solid #fff;
+    margin: 20px;
+}
+
+
+/*--NAVBAR SECTION--*/
+.nav {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__ul {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__link {
+    text-decoration: none;
+    padding: 8px 10px;
+    display: inline-block;
+    margin: 6px;
+    border-radius: 0;
+    transition-property: background-color;
+    transition-duration: .3s;
+}
+
+.nav__link:hover {
+    background: #f803;
+}
+
+.img-logo {
+    width: 80px;
+}
+
+main {
+    background: #444444;
+}
+
+.link-login {
+    background-color: #4788ef;
+    color: #F7F9FA;
+    border-radius: 20px;
+    padding: 8px 24px;
+    margin-left: 6px;
+}
+
+.link-login:hover {
+    background-color: #478;
+}
+
+.main-p {
+    margin-top: 0;
+}
+
+.nav-logo-container {
+    text-align: center;
+}
+
+
+
+
+
+
+

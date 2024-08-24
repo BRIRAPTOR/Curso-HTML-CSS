@@ -1,0 +1,26 @@
+.box {
+    box-sizing: border-box;
+    background-color: rgb(11, 11, 199);
+    margin: 20px;
+    text-align: center;
+    padding-top: 40px;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: #deff99ee;
+    margin: 20px;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(180, 100%, 50%);
+    margin: 20px;
+}

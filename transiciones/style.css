@@ -1,0 +1,47 @@
+/*Son el intervalo de cambio de una propiedad entre un valor y otro*/
+body {
+    margin: 0;
+    height: max-content;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #289f9b;
+    margin: auto;
+    font-size: 60px;
+    color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-property: color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s;
+    /*  transition: left 1s cubic-bezier(0, 1.35, .91, -0.28) 2s;*/
+}
+
+.box:hover {
+    background: yellow;
+    color: #81d534;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background: #d33131;
+    margin: 50px 0;
+    font-size: 60px;
+    color: #111111;
+    position: relative;
+    left: 0px;
+    transition-property: left;
+    transition-duration: 2s;
+    transition-delay: 1s;
+
+    transition-timing-function: cubic-bezier(0, 1.35, .91, -0.28);
+}
+
+body:hover .box2 {
+    left: 800px;
+}

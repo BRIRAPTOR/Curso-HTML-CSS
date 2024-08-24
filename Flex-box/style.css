@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.flexbox {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    /* grow cuanto puede crecer la caja, basis establecer tamaño base da la caja maximo que se recorta */
+}
+
+.flex-item {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background: #0fa859;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.container {
+    border: 1px solid #111111;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /*justificar contenido habla del eje principal y align en el eje cruzado */
+    justify-content: center;
+    /*align-items: center; solo cuando tenemos una linea, para muchas lineas align content*/
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px; /*este es una separación entre las cajas y es aparte del margin se suman los 2*/
+}
+
+.flex-item1:first-child {
+    background: #289f9b;
+    align-self: start;
+}
+
+.flex-item1 {
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    background: #1e0fa8;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    order: 3;
+
+}
+
+.flex-item1:last-child {
+    background: #dcc94a;
+    order: 2;
+}
+
+.flex-item1:nth-child(3) {
+    order: 1;
+}
+
+.container2 {
+    margin-top: 200px;
+    border: 1px solid #111111;
+    height: 100vh;
+    display: flex;
+    /*justificar contenido habla del eje principal y align en el eje cruzado */
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.flex-item2:first-child {
+    background: #08874a;
+    /* grow cuanto puede crecer la caja, basis establecer tamaño base en la que apunta el elemento da la caja maximo que se recorta */
+    flex-grow: 1;
+    flex-shrink: 3; /*te vas a encojer 3 veses mas que tus hermanos */
+    flex-basis: 280px;
+    /* flex: 1 1280px;*/
+    align-self: start;
+}
+
+.flex-item2 {
+    height: 300px;
+    flex-wrap: wrap;
+    margin: 10px;
+    background: #e0901c;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    flex-basis: 300px;
+
+}
+
+.flex-item2:last-child {
+    background: #ab1212;
+    flex-grow: 2;
+}
+

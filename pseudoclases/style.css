@@ -1,0 +1,75 @@
+h1{
+    color: #48e;
+font-family: sans-serif;
+    margin: 30px;
+}
+
+/*pasar el mouse por encima*/
+h1:hover {
+background: #ccc;
+    color: #000;
+}
+/*mientras este clickeado */
+h1:active {
+    background: #999;
+    color: #fff;
+}
+
+li:first-child {
+    color: #0fa859;
+}
+li:nth-child(2) {
+    color: #66ffaa;
+}
+
+li:nth-child(3) {
+    color: #289f9b;
+}
+li:last-child {
+    color: #e0901c;
+}
+/*
+Indice de las pseudo-clases estándar
+:active
+:checked
+:default
+:dir()
+:disabled
+:empty
+:enabled
+:first
+:first-child
+:first-of-type
+:fullscreen
+:focus
+:hover
+:indeterminate
+:in-range
+:invalid
+:lang()
+:last-child
+:last-of-type
+:left
+:link
+:not()
+:nth-child()
+:nth-last-child()
+:nth-last-of-type()
+:nth-of-type()
+:only-child
+:only-of-type
+:optional
+:out-of-range
+:read-only
+:read-write
+:required
+:right
+:root
+:scope (en-US)
+:target
+:valid
+:visited
+:is()
+:has()
+:where()
+ */
